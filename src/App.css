@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 20px 40px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group input {
+  padding: 10px;
+}
+
+.input-group input[type='text'] {
+  flex: 3;
+  margin: 0 5px 0 0;
+}
+
+.input-group input[type='submit'] {
+  flex: 1;
+}
+
+.todo {
+  border: 1px solid #ee82ee;
+  margin: 5px 0px;
+  padding: 0px 5px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+
+  background-image: 
+  /* linear-gradient(90deg, #FBCEB1, #FF033E, #BA0021) */ linear-gradient(
+    90deg,
+    #dda0dd,
+    #ee82ee,
+    #d8bfd8
+  );
+
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.todo-summary {
+  justify-self: left;
+}
+
+.todo-status{
+  padding-right: 20px;
+}
